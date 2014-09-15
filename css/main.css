@@ -6,19 +6,21 @@
 
 
 
-img.logo {
+.logo {
     display: block;
-    margin: auto;
+    margin: 0 auto;
     padding-top: 20px;
 }
 
-ul {
+
+
+#menu {
     list-style-type: none;
-    padding: 10px;
+    padding: px;
     }
 
-a:link,a:visited {
-    margin:10 auto;
+#menu a:link,a:visited {
+    margin:0 auto;
     display:block;
     width: 120px;
     font-weight:bold;
@@ -26,16 +28,16 @@ a:link,a:visited {
     font-size: .85em;
     color:#94B0BE;
     text-align:center;
-    padding:4px;
+    padding:px;
     text-decoration:none;
     text-transform:uppercase;
     }
     
-a:hover, a:active {
+#menu a:hover, a:active {
     color: #fff;
     }
 
-li {
+#nav, ul {
     display:inline-block;
     }
     
@@ -43,3 +45,40 @@ li {
     background-color: #333;
     text-align:center;
     }
+
+#content {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: auto;
+    padding-top: 20px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 2em;
+    color:#333333;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#333333;
+    text-align: left; 
+    display: block;
+}
+
+br {
+    padding: 10px;  
+}
+
+
+
+
+p, ul, li {
+    font-family: sans-serif;
+    font-size: 1em;
+    color:#333333;
+    text-align: left;
+}
+
